@@ -11,9 +11,9 @@ function Funcionarios() {
 	const [erros, setErros] = useState({})
 	const [mensagem, setMensagem] = useState('')
 	const videoRef = useRef(null)
-	const canvasRef = useRef(null)
+	const canvasRef = useRef(null) 
 
-	function selecionarFoto(event) {
+	function selecionarFoto(event) {   
 		const arquivo = event.target.files[0]
 
 		if (arquivo) {
