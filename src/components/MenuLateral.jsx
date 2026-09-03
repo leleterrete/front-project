@@ -63,10 +63,12 @@ function MenuLateral({ aberto, setTela }) {
         >
           Indicadores
         </button>
-         <button 
+        <button 
           className="btn btn-sm btn-dark text-start" 
-          onClick={() => setTela('indicadores')}
-        ></button>
+          onClick={() => setTela('funcionarios')}
+        >
+          Funcionários
+        </button>
       </div>
     </aside>
   )
