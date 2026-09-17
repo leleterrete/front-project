@@ -11,6 +11,8 @@ import TipoInformacao from './components/cadastros/TipoInformacao'
 import UnidadeMedida from './components/cadastros/UnidadeMedida'
 import Indicadores from './components/cadastros/Indicadores'
 import Funcionarios from './components/cadastros/Funcionarios'
+import Usuarios from './components/cadastros/Usuarios'
+import Login from './components/Login'
 
 import './App.css'
 
@@ -46,6 +48,9 @@ function App() {
           {tela === 'unidadeMedida' && <UnidadeMedida />}
           {tela === 'indicadores' && <Indicadores />}
           {tela === 'funcionarios' && <Funcionarios />}
+          {tela === 'usuarios' && <Usuarios />}
+          {tela === 'login' && <Login setTela={setTela} />}
+          
         </main>
       </div>
     </>
